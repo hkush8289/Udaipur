@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main2Activity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:gravity="center_horizontal"
+                android:text="Pre-Historic Era"
+                android:textSize="24sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="match_parent"
+                android:layout_height="175dp"
+                android:fontFamily="casual"
+                android:text="The Ahar River bank was inhabited by men in about 2000 B.C. There are footprints of two different civilizations, which provides claims about earliest inhabitants of the Ahar culture: the first ones are the Bhil/Bheels, the indigenous tribes originated at this place, and are still residing in the area in large numbers. The second footprints were of Rajputs, who once entered the enclosed valley, and then continued to live in this place for centuries."
+                android:textAlignment="center"
+                android:textStyle="italic" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/d" />
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="serif"
+                android:text="The Establishment of Udaipur as a city"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView6"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Udaipur was founded in 1559, by Maharana Udai Singh II in the fertile circular Girwa Valley to the southwest of Nagda, on the Banas River. The city was established as the new capital of the Mewar kingdom. This area already had a thriving trading town, Ayad, which had served as the capital of Mewar in the 10th through 12th centuries. The Girwa region was thus already well known to Chittaud rulers who moved to it whenever the vulnerable tableland Chittaurgarh was threatened with enemy attacks. Maharana Udai Singh II, in the wake of 16th-century emergence of artillery warfare, decided during his exile at Kumbhalgarh to move his capital to a more secure location. "
+                android:textAlignment="center"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

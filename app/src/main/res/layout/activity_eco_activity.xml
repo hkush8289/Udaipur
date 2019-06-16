@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".eco_activity">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Udaipur has a diversified economic base. The major contributions to the city's economy come from tourism, agriculture and mineral industries. The handicraft and cottage industry sectors play an important part in contributing to the growing economy. The city has also been included under the Smart Cities mission initiated by the Government of India, and is selected in the list of first 20 cities to be developed as smart cities. In the 2001 census of India, 36% of Udaipur resident was reported to be meaningfully employed."
+                android:textAlignment="center" />
+
+            <ImageView
+                android:id="@+id/imageView5"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:srcCompat="@drawable/e" />
+
+            <TextView
+                android:id="@+id/textView15"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-condensed"
+                android:text="Handicrafts"
+                android:textAlignment="center"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textView16"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fontFamily="casual"
+                android:text="Udaipur is well known for handicrafts such as paintings, marble articles, silver arts and terracotta. The Shilpgram is a platform where regional handicraft and hand-loom products are developed. Craft bazaars are organised by the Shilpgram, with an aim to encourage the regional arts and crafts, the handicraft and hand-loom works."
+                android:textAlignment="center" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
